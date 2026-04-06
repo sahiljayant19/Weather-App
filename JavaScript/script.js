@@ -41,7 +41,7 @@ const updateUI = (data, weekDays) => {
     box1.firstElementChild.innerHTML = `${Location} Weather`;
     box2.firstElementChild.innerHTML = `${Location} Sea ForeCast`;
 
-    weatherImg.src = `../img/${weather}.png`; // first box data insertion.
+    weatherImg.src = `./img/${weather}.png`; // first box data insertion.
     weekDay.innerHTML = day;
     weatherStatus.innerHTML = titleCase(weather);
     celsiusStatus.innerHTML = `${celsius}<span>&deg;</span>C`;
