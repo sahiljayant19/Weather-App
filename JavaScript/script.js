@@ -23,6 +23,8 @@ const titleCase = (word) => {
 
 const updateUI = (data, weekDays) => {
     let weather = data.weather[0].main; // first box data variables.
+    weather = weather.toLowerCase(); // convert weather'name all letters in lowercase like Haze -> haze to sync data with /img folder 
+    
     let description = data.weather[0].description;
     let day = weekDays[new Date().getDay()];
     let celsius = (data.main.temp - 273.15).toFixed(0);
