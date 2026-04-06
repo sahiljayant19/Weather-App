@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Accurate and up-to-date weather forecasts for your location. Get current weather conditions, hourly and daily forecasts, and weather alerts. Plan your day with confidence.">
+    <title>WeatherX</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar" id="nav">
+            <ul id="ul">
+                <li>Home</li>
+                <li>About Us</li>
+            </ul>
+            <label for="inputBox" class="input-box-label">
+                <input type="search" name="text" id="inputBox" class="input-box" placeholder="Search Any Location...">
+            </label>
+            <button type="button" aria-label="SearchButton" id="searchBtn" class="search-btn""><img src="
+                img/search-icon.png" alt="" width="25px""></button>
+            <button type=" button" class="menu-btn" id="menuBtn"><img src="/img/menu.png" alt="menu"
+                    width="35px"></button>
+        </nav>
+    </header>
+    <main>
+        <h1>Weather<span>X</span></h1>
+        <div class=" container">
+            <div class="box box1" id="box1">
+                <h3 id="box1H3">WEATHER</h3>
+                <hr>
+                <div class="items">
+                    <img id="weatherImg" src="./img/icon.png" alt="" width="200px" class="weather-img">
+                    <div class="week-day" id="weekDay"></div>
+                    <div id="weather" class="weather"></div>
+                    <div id="celsius" class="celsius"></div>
+                    <div id="fehr" class="fehr"></div>
+                    <div id="descrip" class="description"></div>
+                </div>
+            </div>
+            <div class="box box2" id="box2">
+                <h3>Sea ForeCast</h3>
+                <hr>
+                <div id="humidity" class="box2-item"></div>
+                <div id="windSpeed" class="box2-item"></div>
+                <div id="windDeg" class="box2-item"></div>
+                <div id="windGust" class="box2-item"></div>
+                <div id="seaLvl" class="box2-item"></div>
+                <div id="grndLvl" class="box2-item"></div>
+                <div id="minC" class="box2-item"></div>
+                <div id="maxC" class="box2-item"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/icon.png" alt="WeatherX Logo" width="40px">
+                    <span class="logo-text">WeatherX</span>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><img src="img/fb.png" alt="Facebook" width="25px"></a></li>
+                        <li><a href="#"><img src="img/twitter.png" alt="Twitter" width="25px"></a></li>
+                        <li><a href="#"><img src="img/insta.png" alt="Instagram" width="25px"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2023 WeatherX. All rights reserved.</p>
+                <p>Accurate and up-to-date weather forecasts for your location.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="JavaScript/variables.js"></script>
+    <script type="module" src="JavaScript/script.js"></script>
+</body>
+
+</html>

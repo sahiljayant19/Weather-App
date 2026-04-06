@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo img {
+    margin-bottom: 20px;
+  }
+  .logo-text {
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+  }
+  .footer-links {
+    margin-top: 20px;
+  }
+  .footer-links ul {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-links li,
+  .footer-social li {
+    margin: 0 10px;
+  }
+  .footer-social ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 560px) {
+  .box2 {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background: url(../img/background.webp) 0 0 / cover no-repeat fixed;
+    min-width: 100vw;
+  }
+  .navbar {
+    width: 100vw;
+    position: relative;
+  }
+  .navbar ul {
+    display: none;
+    width: 100vw;
+  }
+  .navbar ul li {
+    width: 100%;
+  }
+  .input-box {
+    width: 200px;
+    margin: 0 10px;
+  }
+  .menu-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    border: 0;
+  }
+  .weather-img {
+    margin: 15px;
+    width: 150px;
+  }
+  .week-day {
+    right: 10px;
+    font-size: 25px;
+  }
+  .celsius,
+  .weather {
+    right: 30px;
+  }
+  .weather {
+    font-size: 20px;
+    margin-top: 60px;
+  }
+  .fehr {
+    right: 25px;
+  }
+  .description {
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+    font-size: 22px;
+  }
+  .box2 {
+    height: 500px;
+  }
+}

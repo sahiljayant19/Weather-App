@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+
+.navbar,
+.navbar ul,
+.navbar ul li {
+    height: 60px;
+    display: flex
+}
+
+.navbar,
+h1 {
+    color: #fff
+}
+
+.container,
+.items,
+.navbar,
+.navbar ul {
+    display: flex
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, sans-serif
+}
+
+body {
+    background: url(../img/background.webp) 0 0/cover no-repeat fixed
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+.navbar {
+    align-items: center;
+    background-color: rgb(67, 1, 137);
+}
+
+.navbar ul {
+    width: 220px
+}
+
+.navbar ul li {
+    height: 58px;
+    width: 110px;
+    list-style: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent
+}
+
+.navbar ul li:hover {
+    border: 1px solid rgba(255, 255, 255, .582);
+    border-radius: 5px
+}
+
+.input-box-label {
+    height: 60%
+}
+
+.input-box {
+    height: 100%;
+    width: 300px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, .835);
+}
+
+.input-box:focus {
+    outline: rgba(178, 0, 254, .294) solid 2px;
+    box-shadow: 0 0 5px #fff
+}
+
+.search-btn {
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.363);
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: .8;
+    transition: background-color .2s ease-in-out;
+}
+
+.search-btn:hover {
+    background-color: rgba(0, 0, 0, .576);
+    opacity: 1
+}
+
+main h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 50px;
+    letter-spacing: 10px
+}
+
+h1 span {
+    font-size: 70px;
+    color: rgba(0, 110, 255, .793);
+    filter: drop-shadow(0 0 3px white)
+}
+
+.container {
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.box {
+    height: 400px;
+    width: 500px;
+    margin: 20px 40px;
+    border-radius: 20px;
+    outline: rgba(255, 255, 255, .5) solid 1px
+}
+
+.box1 {
+    position: relative;
+    color: rgba(255, 255, 255, .794)
+}
+
+.celsius,
+.description,
+.fehr,
+.weather,
+.week-day {
+    position: absolute
+}
+
+.box hr {
+    border: 1px solid rgba(255, 255, 255, .373)
+}
+
+.box1 h3,
+.box2 h3 {
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px
+}
+
+.weather-img {
+    margin: 30px 50px;
+    filter: drop-shadow(0 0 20px #d1cbff)
+}
+
+.week-day {
+    right: 50px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700
+}
+
+.weather {
+    font-size: 25px;
+    right: 70px;
+    margin-top: 78px
+}
+
+.celsius,
+.fehr {
+    font-size: 30px
+}
+
+.celsius {
+    bottom: 100px;
+    right: 100px
+}
+
+.fehr {
+    bottom: 60px;
+    right: 85px
+}
+
+.description {
+    bottom: 70px;
+    left: 85px;
+    font-size: 22px
+}
+
+.box2-item,
+.logo-text {
+    font-size: 20px;
+    margin-left: 10px
+}
+
+.box2-item {
+    color: #fff;
+    margin-top: 15px;
+    letter-spacing: 3px
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer
+}
+
+.footer {
+    background-color: rgba(61, 20, 112, .8);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 14vh;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.logo-text {
+    font-weight: 700;
+    vertical-align: super
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex
+}
+
+.footer-social ul li {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, .492);
+    transition: background-color .3s ease;
+}
+
+.footer-social ul li{
+    border-radius: 50%;
+}
+
+.footer-social ul li img { 
+    opacity: 0.7;
+    transition: opacity .3s ease;
+}
+.footer-social ul li img:hover {
+    opacity: 1;
+}
+
+.footer-social li:hover {
+    background-color: #ffffffd6
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-info p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5
+}
